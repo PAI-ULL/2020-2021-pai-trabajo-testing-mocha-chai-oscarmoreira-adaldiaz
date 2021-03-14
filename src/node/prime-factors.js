@@ -1,4 +1,22 @@
-const primeFactors = (number) => {
+/**
+ * University of La Laguna
+ * Computer engineering
+ * Subject: Programming of interactive applications
+ *
+ * @author Óscar Moreira Estévez
+ * @author Adal Díaz Fariña
+ * @date 14-03-2021
+ * @brief Code for Exercism's challenge "prime factors"
+ */
+ 
+'use strict'
+
+/**
+ * @description return the prime factors of a number 
+ * @param  {Number} number
+ * @returns {Array.<Number>}
+ */
+ export const primeFactors = (number) => {
   if (number === 1) return [];
   if (number === 2) return [2];
   if (number === 3) return [3];

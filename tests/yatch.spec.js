@@ -1,3 +1,6 @@
+//
+// Author: Adal Díaz y Oscar Moreira
+// University of La Laguna
 const { expect } = require("chai");
 const { score } = require("../src/node/yatch");
 
