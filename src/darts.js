@@ -1,8 +1,22 @@
-//
-// This is only a SKELETON file for the 'Darts' exercise. It's been provided as a
-// convenience to get you started writing code faster.
-//
+/**
+ * University of La Laguna
+ * Computer engineering
+ * Subject: Programming of interactive applications
+ *
+ * @author Óscar Moreira Estévez
+ * @author Adal Díaz Fariña
+ * @date 14-03-2021
+ * @brief Code for Exercism's challenge "Darts"
+ */
 
+'use strict';
+
+/**
+ * @description The function score returns the corresponding score, depending on the given coordinates.
+ * @param  {} coorX
+ * @param  {} coorY
+ * @returns Number
+ */
 const score = (coorX, coorY) => {
   let circunferenceFormula = Math.pow(coorX, 2) + Math.pow(coorY, 2);
 

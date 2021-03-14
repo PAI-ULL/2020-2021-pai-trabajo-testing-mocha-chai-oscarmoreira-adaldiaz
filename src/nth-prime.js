@@ -1,8 +1,19 @@
-//
-// This is only a SKELETON file for the 'Nth Prime' exercise. It's been provided as a
-// convenience to get you started writing code faster.
-//
+/**
+ * University of La Laguna
+ * Computer engineering
+ * Subject: Programming of interactive applications
+ *
+ * @author Óscar Moreira Estévez
+ * @author Adal Díaz Fariña
+ * @date 14-03-2021
+ * @brief Code for Exercism's challenge "prime factors"
+ */
 
+/**
+ * @description The function calculate the prime number on the given position.
+ * @param  {} num
+ * @returns Number
+ */
 const prime = (num) => {
   if (num === 0) {
     throw new Error('there is no zeroth prime');
