@@ -12,11 +12,10 @@
 This directory is organised as follows:
 
       .
-      ├── bib          # Assignment bibliography
-      ├── slides       # slides of your presentation
-      ├── tests        # Source code for tests
-      ├── src          # Source code 
-
+      ├── LICENSE                   
+      ├── README.md       
+      ├── bib                # Asignament biography
+      └── examples           # Exercises with Mocha and Chai
 <br>
 
 ## Links

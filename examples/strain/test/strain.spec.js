@@ -1,5 +1,5 @@
 const { assert } = require("chai");
-const { keep, discard } = require ("../src/node/strain");
+const { keep, discard } = require ("../src/strain");
 
 describe('strain', () => {
   it('keeps on empty array returns empty array', () => {

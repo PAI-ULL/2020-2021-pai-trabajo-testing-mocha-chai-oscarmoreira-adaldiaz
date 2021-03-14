@@ -1,4 +1,4 @@
-const { primeFactors } = require("../src/node/prime-factors");
+const { primeFactors } = require("../src/prime-factors");
 const { expect } = require('chai');
 
 describe('returns prime factors for the given input number', () => {

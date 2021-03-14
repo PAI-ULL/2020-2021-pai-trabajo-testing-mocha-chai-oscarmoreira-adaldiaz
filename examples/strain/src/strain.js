@@ -17,7 +17,7 @@
  * @description Function to know the elements that the predicate is true
  * @returns array with elements that the predicate is true
  */
- export const keep = (collection = [], predicate) => {
+const keep = (collection = [], predicate) => {
   let keepArray = collection.filter(element => predicate(element) == true);
   return keepArray;
 };
@@ -28,7 +28,7 @@
  * @description Function to know the elements that the predicate is false
  * @returns array with elements that the predicate is false
  */
-export const discard = (collection = [], predicate) => {
+const discard = (collection = [], predicate) => {
   let discardArray = collection.filter(element => predicate(element) == false);
   return discardArray;
 };

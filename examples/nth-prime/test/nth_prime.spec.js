@@ -1,6 +1,6 @@
 const should =  require('chai').should();
 const {assert, expect } = require('chai');
-const { prime } = require('../../src/nth-prime.js');
+const { prime } = require('../src/nth-prime.js');
 
 describe('nth-prime', () => {
   it('first prime', () => {

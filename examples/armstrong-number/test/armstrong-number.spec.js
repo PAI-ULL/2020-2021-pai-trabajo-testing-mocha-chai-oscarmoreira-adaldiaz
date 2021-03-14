@@ -1,5 +1,5 @@
 const { expect } =  require('chai');
-const { isArmstrongNumber } = require('../../src/armstrong-numbers.js');
+const { isArmstrongNumber } = require('../src/armstrong-numbers.js');
 
 describe('Armstrong Numbers', () => {
   describe("Armstrong Numbers tests using EXPECT interface from CHAI module: ", () => {	

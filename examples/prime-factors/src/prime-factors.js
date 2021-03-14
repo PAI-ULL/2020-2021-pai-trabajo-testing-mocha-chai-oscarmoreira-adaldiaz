@@ -16,7 +16,7 @@
  * @param  {Number} number
  * @returns {Array.<Number>}
  */
- export const primeFactors = (number) => {
+const primeFactors = (number) => {
   if (number === 1) return [];
   if (number === 2) return [2];
   if (number === 3) return [3];

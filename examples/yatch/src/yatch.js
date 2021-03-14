@@ -17,7 +17,7 @@
  * @param  {String} category
  * @returns {Number}
  */
- export const score = (puntuations = [], category) => {
+const score = (puntuations = [], category) => {
   switch (category) {
     case 'yacht':
       return calculatePointsYacht(puntuations);
