@@ -22,4 +22,3 @@ This directory is organised as follows:
 
 - [Presentation](https://docs.google.com/presentation/d/1xTFGllQaFj5AMK5kv1sNGqo_S9pO9W4epKz-brF-cH8/edit)
 - [Presentation PDF]()
-- 
