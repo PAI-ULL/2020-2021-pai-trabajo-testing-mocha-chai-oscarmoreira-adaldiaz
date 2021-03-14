@@ -3,7 +3,7 @@
 // convenience to get you started writing code faster.
 //
 
-export const prime = (num) => {
+const prime = (num) => {
   if (num === 0) {
     throw new Error('there is no zeroth prime');
   }
@@ -24,3 +24,5 @@ export const prime = (num) => {
     }
   }
 };
+
+module.exports = {prime};

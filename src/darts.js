@@ -3,7 +3,7 @@
 // convenience to get you started writing code faster.
 //
 
-export const score = (coorX, coorY) => {
+const score = (coorX, coorY) => {
   let circunferenceFormula = Math.pow(coorX, 2) + Math.pow(coorY, 2);
 
   switch(true) {
@@ -21,3 +21,5 @@ export const score = (coorX, coorY) => {
       break;
     }
 };
+
+module.exports = { score };

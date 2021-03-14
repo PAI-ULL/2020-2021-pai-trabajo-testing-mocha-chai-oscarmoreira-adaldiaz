@@ -3,7 +3,7 @@
 // convenience to get you started writing code faster.
 //
 
-export const isArmstrongNumber = (num) => {
+const isArmstrongNumber = (num) => {
   let number  = num.toString();
   let exponent = num.toString().length;
   let sum = 0;
@@ -15,6 +15,8 @@ export const isArmstrongNumber = (num) => {
   }
   return false;
 };
+
+module.exports = {isArmstrongNumber};
 
 
 

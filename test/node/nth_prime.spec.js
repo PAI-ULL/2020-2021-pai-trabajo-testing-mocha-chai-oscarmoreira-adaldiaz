@@ -1,7 +1,6 @@
-import chai from 'chai';
-import { expect } from 'chai';
-const should = chai.should();
-import { prime } from '../src/nth-prime.js';
+const should =  require('chai').should();
+const {assert, expect } = require('chai');
+const { prime } = require('../../src/nth-prime.js');
 
 describe('nth-prime', () => {
   it('first prime', () => {
@@ -16,22 +15,30 @@ describe('nth-prime', () => {
     prime(6).should.equal(13);
   });
   
-  it.skip('big prime', () => {
-    prime(10001).should.equal(104743);
-  });
-
   it('there is no zeroth prime', () => {
     /* As we lose the context this when the function 
     is invoked by throw we have to somehow save the context. 
     There are two solutions: */
 
     // Encapsulate the function in another function
-    let err = () => { prime(0) }
-    err.should.throw('there is no zeroth prime');
+    // let err = () => { prime(0) }
+    // err.should.throw('there is no zeroth prime');
     expect(() => prime(0)).to.throw('there is no zeroth prime');
 
     // Link the context (bind)
-    let err_2 = prime.bind(null,0);
-    expect(err_2).to.throw('there is no zeroth prime');
+    // let err_2 = prime.bind(null,0);
+    // expect(err_2).to.throw('there is no zeroth prime');
   });
+
+  it('typeof assert', () => {
+    assert.typeOf({ tea: 'chai' }, 
+                  'object', 
+                  'we have an object');
+  });
+
+  it('typeof expect', () => {
+    expect({ tea: 'chai' })
+          .to.be.a('object')
+  });
+
 });

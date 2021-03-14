@@ -1,5 +1,5 @@
-import { assert } from 'chai';
-import { score } from '../src/darts.js';
+const { assert } = require('chai');
+const { score } = require('../../src/darts.js');
 
 describe('Darts', () => {
   describe("Darts tests using ASSERT interface from CHAI module: ", () => {
