@@ -1,5 +1,5 @@
 const should =  require('chai').should();
-const {assert, expect } = require('chai');
+const {expect } = require('chai');
 const { prime } = require('../src/nth-prime.js');
 
 describe('nth-prime', () => {
@@ -30,15 +30,19 @@ describe('nth-prime', () => {
     // expect(err_2).to.throw('there is no zeroth prime');
   });
 
-  it('typeof assert', () => {
-    assert.typeOf({ tea: 'chai' }, 
-                  'object', 
-                  'we have an object');
+  it('assert typeof', () => {
+    assert.typeOf({ tea: 'chai' }, 'object', 'we have an object');
   });
 
-  it('typeof expect', () => {
-    expect({ tea: 'chai' })
-          .to.be.a('object')
+  it('expect to be a', () => {
+    expect({ tea: 'chai' }).to.be.a('object', 'we have an object');
   });
 
+  // it('expect to be a', () => {
+  //   expect({ tea: 'chai' }).to.be.a('Number', 'we expect an object');
+  // });
+
+  it('expect to be a', () => {
+    expect({ tea: 'chai' }).to.be.a('object', 'we have an object');
+  });
 });
