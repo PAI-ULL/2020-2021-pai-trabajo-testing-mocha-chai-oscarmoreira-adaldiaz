@@ -1,8 +1,8 @@
 const {assert, expect } = require('chai');
 const { prime } = require('../../nth-prime/src/nth-prime.js');
 
-describe('Examples of assertions', () => {
-  describe('Typeof assertions examples', () => {
+describe('Examples of test', () => {
+  describe('Typeof examples', () => {
 		it('assert typeof', () => {
       assert.typeOf({ tea: 'chai' }, 'object', 'we have an object');
     });
@@ -11,12 +11,12 @@ describe('Examples of assertions', () => {
       expect({ tea: 'chai' }).to.be.a('object', 'we have an object');
     });
   
-    // it('Test fail. We expected an object', () => {
-    //   expect({ tea: 'chai' }).to.be.a('Number', 'we expected an object');
-    // });
-  });
+  //   it('Test fail. We expected an object', () => {
+  //     expect({ tea: 'chai' }).to.be.a('Number', 'we expected an object');
+  //   });
+  // });
 
-  describe('Length of assertions examples', () => {
+  describe('Length of examples', () => {
 		it('assert typeof', () => {
       assert.lengthOf([1, 2, 3], 3, 'we have a length of 3');
     });
@@ -26,7 +26,7 @@ describe('Examples of assertions', () => {
     });
   });
 
-  describe('Throws assertions examples', () => {
+  describe('Throws examples', () => {
 		// it('Error. We lose the context', () => {
 		// 	expect(prime(0)).to.throw('there is no zeroth prime');
 		// });
