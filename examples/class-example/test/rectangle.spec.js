@@ -2,12 +2,16 @@ const {expect} = require('chai');
 const {Rectangle} = require('../src/rectangle');
 
 describe('Rectangle tests', () => {
-  before(() => {
-    const square = new Rectangle(10, 10);
+  const square = new Rectangle(10, 10);  
+  it('we expected an object', () => {
+    expect(square).to.be.a('object');
+  });
+
+  it('Square is an object of Rectangle class', () => {
+    expect(square instanceof Rectangle).to.equal(true);
   });
   
   it('Area of a square', () => {
-    const square = new Rectangle(10, 10);
     expect(square.area).to.equal(100)
   });
   
