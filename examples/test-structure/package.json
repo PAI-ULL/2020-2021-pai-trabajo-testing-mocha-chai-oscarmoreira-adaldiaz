@@ -1,0 +1,29 @@
+{
+  "name": "2020-2021-pai-trabajo-testing-mocha-chai-oscarmoreira-adaldiaz",
+  "version": "1.0.0",
+  "description": "This directory is organised as follows:",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.3.3",
+    "mocha": "^8.3.1",
+    "nyc": "^15.1.0"
+  },
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PAI-ULL/2020-2021-pai-trabajo-testing-mocha-chai-oscarmoreira-adaldiaz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PAI-ULL/2020-2021-pai-trabajo-testing-mocha-chai-oscarmoreira-adaldiaz/issues"
+  },
+  "homepage": "https://github.com/PAI-ULL/2020-2021-pai-trabajo-testing-mocha-chai-oscarmoreira-adaldiaz#readme"
+}

@@ -11,7 +11,7 @@
 
 /**
  * @description The function calculate the prime number on the given position.
- * @param  {} num
+ * @param  {Number} num
  * @returns Number
  */
 const prime = (num) => {

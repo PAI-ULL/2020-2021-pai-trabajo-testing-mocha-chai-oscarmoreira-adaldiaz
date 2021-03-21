@@ -1,9 +1,6 @@
 const {assert, expect } = require('chai');
 const { prime } = require('../../nth-prime/src/nth-prime.js');
 
-// import {assert, expect} from 'chai';
-// import {prime} from '../src/nth-prime.js';
-
 describe('Examples of test', () => {
   describe('Equals examples', () => {
     it('assert number 3 is equal a string 3', () => {
@@ -18,7 +15,7 @@ describe('Examples of test', () => {
       assert.deepEqual([3, 4, 5, 6], [3, 4, 5, 6]);
     });
   
-    it('exepct number 3 is equal a number 3', () => {
+    it('expect number 3 is equal a number 3', () => {
       expect(3).to.equal(3);
     });
     
@@ -28,7 +25,6 @@ describe('Examples of test', () => {
     
     it('expect an array is deep equal another array', () => {
       expect([3, 4, 5, 6]).to.deep.equal([3, 4, 5, 6]);
-      assert.deepEqual([3, 4, 5, 6], [3, 4, 5, 6]);
     });
     
     it('expect an array is eql another array', () => {
@@ -93,7 +89,7 @@ describe('Examples of test', () => {
   });
 
   describe('Throws examples', () => {
-		it.skip('Error. We lose the context', () => {
+		it('Error. We lose the context', () => {
 			expect(prime(0)).to.throw('there is no zeroth prime');
 		});
 

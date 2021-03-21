@@ -13,7 +13,7 @@
 
 /**
  * @description Returns whether or not it is an Armstrong Number
- * @param  {} num
+ * @param  {Number} num
  * @returns Boolean
  */
 const isArmstrongNumber = (num) => {

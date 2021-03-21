@@ -11,11 +11,13 @@
 
 This directory is organised as follows:
 
-      .
-      ├── LICENSE                   
-      ├── README.md       
-      ├── bib                # Asignament biography
-      └── examples           # Exercises with Mocha and Chai
+	.
+	├── bib            # Asignament biography
+	├── examples       # Exercises with Mocha and Chai
+	├── LICENSE
+	├── README.md
+	└── slides         # Presentation of Mocha and Chai
+        
 <br>
 
 ## Links

@@ -3,7 +3,7 @@ const chai = require('chai');
 const chaiHttp = require('chai-http');
 
 chai.use(chaiHttp);
-const url= '10.6.129.63:8085';
+const url= '172.28.5.182:8085';
 
 describe('Working app',()=>{
   it('We expect to have a status 200 so the web is deployed', (done) => {

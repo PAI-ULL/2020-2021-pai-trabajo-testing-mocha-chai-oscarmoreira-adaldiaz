@@ -11,5 +11,5 @@ APP.use(EXPRESS.static(PATH.join(__dirname, '../www')));
 
 // Listen for requests
 const SERVER = APP.listen(APP.get('port'), '0.0.0.0', function () {
-  console.log('The server is running on http://<your machine IP addr>:' + APP.get('port'));
+  console.log('The server is running on http://172.28.5.182:' + APP.get('port'));
 });

@@ -5,4 +5,4 @@
 - [nyc covering](https://github.com/istanbuljs/nyc)
 - [Testing Javascript with Mocha and Chai](https://www.paradigmadigital.com/dev/testeando-javascript-mocha-chai/)
 - [State Of JS](https://stateofjs.com/)
-- [Github Actions](https://docs.github.com/es/actions)
+- [Mocha sidebar](https://marketplace.visualstudio.com/items?itemName=maty.vscode-mocha-sidebar)

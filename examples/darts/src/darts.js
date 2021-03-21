@@ -13,8 +13,8 @@
 
 /**
  * @description The function score returns the corresponding score, depending on the given coordinates.
- * @param  {} coorX
- * @param  {} coorY
+ * @param  {Number} coorX
+ * @param  {Number} coorY
  * @returns Number
  */
 const score = (coorX, coorY) => {
