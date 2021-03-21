@@ -1,6 +1,9 @@
 const {assert, expect } = require('chai');
 const { prime } = require('../../nth-prime/src/nth-prime.js');
 
+// import {assert, expect} from 'chai';
+// import {prime} from '../src/nth-prime.js';
+
 describe('Examples of test', () => {
   describe('Typeof examples', () => {
 		it('assert typeof', () => {
@@ -14,7 +17,7 @@ describe('Examples of test', () => {
   //   it('Test fail. We expected an object', () => {
   //     expect({ tea: 'chai' }).to.be.a('Number', 'we expected an object');
   //   });
-  // });
+  });
 
   describe('Length of examples', () => {
 		it('assert typeof', () => {
@@ -41,6 +44,6 @@ describe('Examples of test', () => {
 
     it('Throw with assert', () => {
       assert.throws(() => prime(0), 'there is no zeroth prime');
-    })
+    });
   });
 });

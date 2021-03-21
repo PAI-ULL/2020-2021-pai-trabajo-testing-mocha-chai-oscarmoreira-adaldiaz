@@ -3,14 +3,13 @@
   "version": "1.0.0",
   "description": "This directory is organised as follows:",
   "main": "index.js",
+  "type": "commonjs",
   "directories": {
     "test": "tests"
   },
   "dependencies": {},
   "devDependencies": {
     "chai": "^4.3.3",
-    "chai-http": "^4.3.0",
-    "express": "4.13.3",
     "mocha": "^8.3.1",
     "nyc": "^15.1.0"
   },
