@@ -23,4 +23,4 @@ This directory is organised as follows:
 ## Links
 
 - [Presentation](https://docs.google.com/presentation/d/1xTFGllQaFj5AMK5kv1sNGqo_S9pO9W4epKz-brF-cH8/edit)
-- [Presentation PDF]()
+- [Presentation PDF](https://github.com/PAI-ULL/2020-2021-pai-trabajo-testing-mocha-chai-oscarmoreira-adaldiaz/tree/master/slides)
