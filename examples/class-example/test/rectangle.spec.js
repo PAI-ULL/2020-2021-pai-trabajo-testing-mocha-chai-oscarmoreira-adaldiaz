@@ -4,7 +4,7 @@ const {Rectangle} = require('../src/rectangle');
 describe('Rectangle tests', () => {
   const square = new Rectangle(10, 10);  
   it('we expected an object', () => {
-    expect(square).to.be.a('object');
+    expect(square).to.be.an('object');
   });
 
   it('Square is an object of Rectangle class', () => {

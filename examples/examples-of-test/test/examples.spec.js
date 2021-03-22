@@ -47,7 +47,7 @@ describe('Examples of test', () => {
     it('assert {foo: obj1, bar: obj2} include {foo: {a: 1}}', () => {
       const obj1 = {a: 1};
       const obj2 = {b: 2};
-      assert.include({foo: obj1, bar: obj2}, {foo: {a: 1}});
+      assert.deepInclude({foo: obj1, bar: obj2}, {foo: {a: 1}});
     });
     
     it('expect a sentence include a word', () => {
@@ -64,7 +64,7 @@ describe('Examples of test', () => {
     it('expect {foo: obj1, bar: obj2} include {foo: {a: 1}}', () => {
       const obj1 = {a: 1};
       const obj2 = {b: 2};
-      expect({foo: obj1, bar: obj2}).to.include({foo: {a: 1}});
+      expect({foo: obj1, bar: obj2}).to.deep.include({foo: {a: 1}});
     });    
   });
 
